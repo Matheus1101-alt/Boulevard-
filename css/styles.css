@@ -944,14 +944,17 @@ p + p { margin-top: var(--s-16); }
 
 .cloche { width: 160px; height: auto; }
 
-.menu__panel .btn { width: 100%; padding-inline: 16px; }
-
-@media (min-width: 560px) {
-  .menu__panel .btn { width: auto; padding-inline: 28px; }
+.menu__actions {
+  display: grid;
+  gap: var(--s-12);
+  width: 100%;
 }
+
+.menu__actions .btn { width: 100%; padding-inline: 16px; }
 
 @media (min-width: 560px) {
   .menu__panel {
+    justify-items: stretch;
     grid-template-columns: auto 1fr;
     align-items: center;
     gap: var(--s-24);

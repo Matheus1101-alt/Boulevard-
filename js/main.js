@@ -135,6 +135,7 @@
     var buttons = Array.prototype.slice.call(picker.querySelectorAll('.moment-btn'));
     var autoBtn = picker.querySelector('[data-autoplay-toggle]');
     var stage = document.getElementById('moment-scene');
+    var caption = document.querySelector('[data-moment-caption]');
     var current = 0;
 
     function select(index) {
@@ -143,6 +144,7 @@
         btn.setAttribute('aria-pressed', String(i === current));
       });
       scene.setAttribute('data-scene', buttons[current].getAttribute('data-scene'));
+      if (caption) caption.textContent = buttons[current].textContent.trim();
     }
 
     function setPaused(paused) {

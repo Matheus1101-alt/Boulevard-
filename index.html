@@ -5,20 +5,20 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Boulevard Restaurante — Condomínio Terras de São José I, Itu</title>
   <meta name="description" content="No Condomínio Terras de São José I, o Boulevard é o lugar certo para reunir a família, encontrar os amigos e desfrutar de uma boa refeição com tranquilidade.">
-  <meta name="theme-color" content="#100E0C">
+  <meta name="theme-color" content="#FAF7F3">
   <meta property="og:type" content="restaurant">
   <meta property="og:title" content="Boulevard Restaurante">
   <meta property="og:description" content="Boa gastronomia e bons momentos no Condomínio Terras de São José I.">
-  <meta property="og:image" content="assets/img/risoto-polvo-camarao-864.webp">
+  <meta property="og:image" content="assets/img/fachada-864.webp">
   <meta property="og:locale" content="pt_BR">
 
   <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,500..700;1,9..144,500&family=Work+Sans:wght@400;500;600&display=swap">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,500..700;1,9..144,500..700&family=Work+Sans:wght@400;500;600&display=swap">
 
-  <link rel="preload" as="image" href="assets/img/risoto-polvo-camarao-864.webp" imagesrcset="assets/img/risoto-polvo-camarao-480.webp 480w, assets/img/risoto-polvo-camarao-864.webp 864w" imagesizes="(min-width: 768px) 42vw, 100vw" fetchpriority="high">
+  <link rel="preload" as="image" href="assets/img/fachada-864.webp" imagesrcset="assets/img/fachada-480.webp 480w, assets/img/fachada-864.webp 864w" imagesizes="(min-width: 1024px) 560px, (min-width: 768px) 640px, 100vw" fetchpriority="high">
   <link rel="stylesheet" href="css/styles.css">
   <script src="js/main.js" defer></script>
 
@@ -28,7 +28,7 @@
     "@type": "Restaurant",
     "name": "Boulevard Restaurante",
     "telephone": "+55 11 4025-0590",
-    "image": "assets/img/risoto-polvo-camarao-864.webp",
+    "image": "assets/img/fachada-864.webp",
     "address": {
       "@type": "PostalAddress",
       "streetAddress": "Alameda Laço de Fita – Condomínio Terras de São José I",
@@ -41,27 +41,25 @@
   </script>
 </head>
 <body>
-  <!-- Sprite de ícones (decorativo; referenciado via <use>) -->
+  <!-- Sprite de ícones -->
   <svg class="sprite" aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg">
     <symbol id="i-whatsapp" viewBox="0 0 24 24">
-      <path fill="currentColor" d="M17.47 14.38c-.3-.15-1.76-.87-2.03-.97-.27-.1-.47-.15-.67.15-.2.3-.77.97-.94 1.16-.17.2-.35.22-.64.07-.3-.15-1.26-.46-2.39-1.47-.88-.79-1.48-1.76-1.65-2.06-.17-.3-.02-.46.13-.6.13-.14.3-.35.45-.52.15-.17.2-.3.3-.5.1-.2.05-.37-.03-.52-.07-.15-.67-1.61-.92-2.2-.24-.58-.49-.5-.67-.51h-.57c-.2 0-.52.07-.79.37-.27.3-1.04 1.02-1.04 2.48s1.07 2.88 1.21 3.07c.15.2 2.1 3.2 5.08 4.49.71.3 1.26.49 1.7.62.71.23 1.36.2 1.87.12.57-.08 1.76-.72 2-1.41.25-.7.25-1.29.18-1.41-.08-.13-.28-.2-.57-.35zm-5.42 7.4h-.01a9.87 9.87 0 0 1-5.03-1.37l-.36-.22-3.74.99 1-3.65-.24-.37a9.86 9.86 0 0 1-1.51-5.26c0-5.45 4.44-9.88 9.89-9.88 2.64 0 5.12 1.03 6.99 2.9a9.83 9.83 0 0 1 2.89 7c0 5.45-4.44 9.88-9.88 9.88zm8.41-18.3A11.82 11.82 0 0 0 12.05 0C5.5 0 .16 5.34.16 11.89c0 2.1.55 4.14 1.59 5.95L.06 24l6.3-1.65a11.88 11.88 0 0 0 5.69 1.45h.01c6.55 0 11.89-5.34 11.89-11.89a11.82 11.82 0 0 0-3.48-8.41z"/>
+      <path fill="currentColor" stroke="none" d="M17.47 14.38c-.3-.15-1.76-.87-2.03-.97-.27-.1-.47-.15-.67.15-.2.3-.77.97-.94 1.16-.17.2-.35.22-.64.07-.3-.15-1.26-.46-2.39-1.47-.88-.79-1.48-1.76-1.65-2.06-.17-.3-.02-.46.13-.6.13-.14.3-.35.45-.52.15-.17.2-.3.3-.5.1-.2.05-.37-.03-.52-.07-.15-.67-1.61-.92-2.2-.24-.58-.49-.5-.67-.51h-.57c-.2 0-.52.07-.79.37-.27.3-1.04 1.02-1.04 2.48s1.07 2.88 1.21 3.07c.15.2 2.1 3.2 5.08 4.49.71.3 1.26.49 1.7.62.71.23 1.36.2 1.87.12.57-.08 1.76-.72 2-1.41.25-.7.25-1.29.18-1.41-.08-.13-.28-.2-.57-.35zm-5.42 7.4h-.01a9.87 9.87 0 0 1-5.03-1.37l-.36-.22-3.74.99 1-3.65-.24-.37a9.86 9.86 0 0 1-1.51-5.26c0-5.45 4.44-9.88 9.89-9.88 2.64 0 5.12 1.03 6.99 2.9a9.83 9.83 0 0 1 2.89 7c0 5.45-4.44 9.88-9.88 9.88zm8.41-18.3A11.82 11.82 0 0 0 12.05 0C5.5 0 .16 5.34.16 11.89c0 2.1.55 4.14 1.59 5.95L.06 24l6.3-1.65a11.88 11.88 0 0 0 5.69 1.45h.01c6.55 0 11.89-5.34 11.89-11.89a11.82 11.82 0 0 0-3.48-8.41z"/>
     </symbol>
     <symbol id="i-phone" viewBox="0 0 24 24">
-      <path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/>
+      <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/>
     </symbol>
-    <symbol id="i-arrow" viewBox="0 0 24 24">
-      <path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M5 12h14M13 6l6 6-6 6"/>
-    </symbol>
-    <symbol id="i-pin" viewBox="0 0 24 24">
-      <path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0z"/>
-      <circle cx="12" cy="10" r="3" fill="none" stroke="currentColor" stroke-width="1.8"/>
-    </symbol>
-    <symbol id="i-pause" viewBox="0 0 24 24">
-      <path fill="currentColor" d="M7 5h3.5v14H7zM13.5 5H17v14h-3.5z"/>
-    </symbol>
-    <symbol id="i-play" viewBox="0 0 24 24">
-      <path fill="currentColor" d="M8 5.5v13l10.5-6.5z"/>
-    </symbol>
+    <symbol id="i-arrow" viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></symbol>
+    <symbol id="i-pin" viewBox="0 0 24 24"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0z"/><circle cx="12" cy="10" r="3"/></symbol>
+    <symbol id="i-external" viewBox="0 0 24 24"><path d="M15 3h6v6M10 14 21 3M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/></symbol>
+    <symbol id="i-pause" viewBox="0 0 24 24"><path fill="currentColor" stroke="none" d="M7 5h3.5v14H7zM13.5 5H17v14h-3.5z"/></symbol>
+    <symbol id="i-play" viewBox="0 0 24 24"><path fill="currentColor" stroke="none" d="M8 5.5v13l10.5-6.5z"/></symbol>
+    <symbol id="i-armchair" viewBox="0 0 24 24"><path d="M19 9V6a2 2 0 0 0-2-2H7a2 2 0 0 0-2 2v3"/><path d="M3 16a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-5a2 2 0 0 0-4 0v1.5a.5.5 0 0 1-.5.5h-9a.5.5 0 0 1-.5-.5V11a2 2 0 0 0-4 0z"/><path d="M5 18v2M19 18v2"/></symbol>
+    <symbol id="i-cloche" viewBox="0 0 24 24"><path d="M3 18h18"/><path d="M5 18a7 7 0 0 1 14 0"/><path d="M12 11V8M10 8h4"/></symbol>
+    <symbol id="i-bell" viewBox="0 0 24 24"><path d="M3 20a1 1 0 0 1-1-1v-1a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v1a1 1 0 0 1-1 1z"/><path d="M20 16a8 8 0 1 0-16 0"/><path d="M12 4v4M10 4h4"/></symbol>
+    <symbol id="i-utensils" viewBox="0 0 24 24"><path d="M3 2v7c0 1.1.9 2 2 2h4a2 2 0 0 0 2-2V2M7 2v20M21 15V2a5 5 0 0 0-5 5v6c0 1.1.9 2 2 2h3zm0 0v7"/></symbol>
+    <symbol id="i-heart" viewBox="0 0 24 24"><path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7z"/></symbol>
+    <symbol id="i-sparkles" viewBox="0 0 24 24"><path d="m12 3-1.9 5.8a2 2 0 0 1-1.3 1.3L3 12l5.8 1.9a2 2 0 0 1 1.3 1.3L12 21l1.9-5.8a2 2 0 0 1 1.3-1.3L21 12l-5.8-1.9a2 2 0 0 1-1.3-1.3z"/></symbol>
   </svg>
 
   <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
@@ -72,7 +70,7 @@
       <a class="wordmark" href="#inicio" aria-label="Boulevard Restaurante — voltar ao início">Boulevard</a>
 
       <nav class="site-nav" id="site-nav" aria-label="Navegação principal">
-        <ul class="site-nav__list">
+        <ul class="site-nav__list" role="list">
           <li><a class="site-nav__link" href="#inicio">Início</a></li>
           <li><a class="site-nav__link" href="#sobre">O Boulevard</a></li>
           <li><a class="site-nav__link" href="#experiencia">Experiência</a></li>
@@ -83,11 +81,12 @@
       </nav>
 
       <div class="site-header__actions">
-        <a class="icon-btn icon-btn--primary" href="https://wa.me/551140250590" target="_blank" rel="noopener" aria-label="Falar pelo WhatsApp (abre em nova aba)">
-          <span class="wa-chip"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-whatsapp"/></svg></span>
+        <a class="btn btn--primary btn--compact" href="tel:+551140250590" aria-label="Ligar agora: (11) 4025-0590">
+          <svg class="icone" aria-hidden="true" focusable="false"><use href="#i-phone"/></svg>
+          <span class="btn__label-lg">Ligar agora</span>
         </a>
-        <a class="icon-btn icon-btn--secondary" href="tel:+551140250590" aria-label="Ligar agora: (11) 4025-0590">
-          <svg class="icon" aria-hidden="true" focusable="false"><use href="#i-phone"/></svg>
+        <a class="btn btn--outline btn--compact" href="https://wa.me/551140250590" target="_blank" rel="noopener" aria-label="Falar pelo WhatsApp (abre em nova aba)">
+          <svg class="icone icone--wa" aria-hidden="true" focusable="false"><use href="#i-whatsapp"/></svg>
         </a>
         <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="Abrir menu">
           <span class="nav-toggle__bars" aria-hidden="true"></span>
@@ -100,235 +99,217 @@
 
     <!-- ============ HERO ============ -->
     <section class="hero" id="inicio" aria-labelledby="hero-title">
-      <div class="hero__media">
-        <img class="hero__img"
-             src="assets/img/risoto-polvo-camarao-864.webp"
-             srcset="assets/img/risoto-polvo-camarao-480.webp 480w, assets/img/risoto-polvo-camarao-864.webp 864w"
-             sizes="(min-width: 768px) 42vw, 100vw"
-             width="864" height="1152"
-             alt="Risoto cremoso com tentáculo de polvo grelhado, camarões, tomates-cereja e ramo de alecrim servido em prato branco"
-             fetchpriority="high" decoding="async">
-      </div>
+      <svg class="waves waves--hero" viewBox="0 0 400 400" preserveAspectRatio="none" aria-hidden="true" focusable="false"><path d="M -20 330 C 90 180, 230 420, 420 60" pathLength="1"/><path d="M -20 324 C 94 168, 227 406, 420 71" pathLength="1"/><path d="M -20 318 C 98 156, 224 392, 420 82" pathLength="1"/><path d="M -20 312 C 102 144, 221 378, 420 93" pathLength="1"/><path d="M -20 306 C 106 132, 218 364, 420 104" pathLength="1"/><path d="M -20 300 C 110 120, 215 350, 420 115" pathLength="1"/><path d="M -20 294 C 114 108, 212 336, 420 126" pathLength="1"/><path d="M -20 288 C 118 96, 209 322, 420 137" pathLength="1"/><path d="M -20 282 C 122 84, 206 308, 420 148" pathLength="1"/><path d="M -20 276 C 126 72, 203 294, 420 159" pathLength="1"/><path d="M -20 270 C 130 60, 200 280, 420 170" pathLength="1"/><path d="M -20 264 C 134 48, 197 266, 420 181" pathLength="1"/><path d="M -20 258 C 138 36, 194 252, 420 192" pathLength="1"/><path d="M -20 252 C 142 24, 191 238, 420 203" pathLength="1"/><path d="M -20 246 C 146 12, 188 224, 420 214" pathLength="1"/><path d="M -20 240 C 150 0, 185 210, 420 225" pathLength="1"/></svg>
 
-      <div class="container hero__inner">
-        <div class="hero__content">
-          <p class="kicker">Boulevard Restaurante</p>
-          <h1 class="h1" id="hero-title">Boa gastronomia, ambiente acolhedor e <span class="h1__accent">momentos<svg class="h1__stroke" viewBox="0 0 200 12" preserveAspectRatio="none" aria-hidden="true" focusable="false"><path d="M2 9 C 50 3, 120 2, 198 7" pathLength="1"/></svg></span> que merecem ser aproveitados</h1>
+      <div class="container hero__grid">
+        <div class="hero__text">
+          <p class="kicker hero__kicker">Boulevard Restaurante</p>
+          <h1 class="hero__title" id="hero-title">Boa gastronomia, ambiente acolhedor e <em class="highlight">momentos</em> que merecem ser aproveitados</h1>
           <p class="hero__lead">No Condomínio Terras de São José I, o Boulevard é o lugar certo para reunir a família, encontrar os amigos e desfrutar de uma boa refeição com tranquilidade.</p>
-          <div class="btn-group">
+          <div class="hero__ctas">
             <a class="btn btn--primary" href="#sobre">
               <span>Conheça o Boulevard</span>
-              <svg class="icon icon--arrow" aria-hidden="true" focusable="false"><use href="#i-arrow"/></svg>
+              <svg class="icone icone--arrow" aria-hidden="true" focusable="false"><use href="#i-arrow"/></svg>
             </a>
-            <a class="btn btn--secondary" href="#contato">
-              <span>Entrar em contato</span>
-            </a>
+            <a class="btn btn--outline" href="#contato">Entrar em contato</a>
           </div>
+          <p class="seal">
+            <svg class="icone" aria-hidden="true" focusable="false"><use href="#i-pin"/></svg>
+            <span>Condomínio Terras de São José I</span>
+          </p>
+        </div>
+
+        <div class="hero__photo">
+          <div class="hero__frame">
+            <img src="assets/img/fachada-864.webp"
+                 srcset="assets/img/fachada-480.webp 480w, assets/img/fachada-864.webp 864w"
+                 sizes="(min-width: 1024px) 560px, (min-width: 768px) 640px, 100vw"
+                 width="864" height="576"
+                 alt="Fachada do Boulevard com revestimento em pedra, vidraças e jardim, sob um ipê-amarelo em dia ensolarado"
+                 fetchpriority="high" decoding="async">
+          </div>
+          <ul class="hero__badges" role="list">
+            <li class="float-badge float-badge--a">
+              <span class="float-badge__icon" aria-hidden="true"><svg class="icone" focusable="false"><use href="#i-armchair"/></svg></span>
+              <span>Ambiente acolhedor</span>
+            </li>
+            <li class="float-badge float-badge--b">
+              <span class="float-badge__icon" aria-hidden="true"><svg class="icone" focusable="false"><use href="#i-bell"/></svg></span>
+              <span>Atendimento próximo</span>
+            </li>
+          </ul>
         </div>
       </div>
     </section>
 
     <!-- ============ SOBRE ============ -->
-    <section class="section section--light about" id="sobre" aria-labelledby="sobre-title">
+    <section class="section section--tint about" id="sobre" aria-labelledby="sobre-title">
       <div class="container about__grid">
-        <div class="about__media reveal">
-          <img class="about__img"
-               src="assets/img/salao-noite-864.webp"
-               srcset="assets/img/salao-noite-480.webp 480w, assets/img/salao-noite-864.webp 864w"
-               sizes="(min-width: 1024px) 40vw, (min-width: 768px) 45vw, 100vw"
-               width="864" height="1152"
-               alt="Salão interno do Boulevard à noite, com mesas altas de madeira, cadeiras de palhinha, forro de madeira e clientes ao fundo"
-               loading="lazy" decoding="async">
-          <img class="about__img-inset"
-               src="assets/img/vista-aerea-480.webp"
-               width="480" height="360"
-               alt="Vista aérea do Boulevard entre árvores, com estacionamento, playground e quadras do Condomínio Terras de São José I"
-               loading="lazy" decoding="async">
-        </div>
-
-        <div class="about__content">
-          <p class="overline overline--on-light">Sobre o Boulevard</p>
-          <h2 class="h2" id="sobre-title">Um restaurante feito para bons encontros</h2>
+        <div class="about__text reveal">
+          <p class="overline">Sobre o Boulevard</p>
+          <h2 class="section-title" id="sobre-title">Um restaurante feito para <em class="highlight-inline">bons encontros</em></h2>
           <p class="lead">Há refeições que vão além do prato. São momentos para conversar sem pressa, reunir pessoas especiais e aproveitar uma experiência agradável à mesa.</p>
           <p>Localizado no Condomínio Terras de São José I, em Itu, o Boulevard combina gastronomia, conforto e atendimento atencioso em um ambiente preparado para diferentes ocasiões.</p>
+        </div>
 
-          <!-- Gráfico: os três pilares do Boulevard se encontrando -->
-          <figure class="venn reveal" aria-hidden="true">
-            <svg class="venn__svg" viewBox="0 0 360 300" focusable="false">
-              <circle class="venn__c venn__c--a" cx="150" cy="128" r="78"/>
-              <circle class="venn__c venn__c--b" cx="210" cy="128" r="78"/>
-              <circle class="venn__c venn__c--c" cx="180" cy="180" r="78"/>
-              <text class="venn__label venn__label--a" x="96" y="36" text-anchor="middle">gastronomia</text>
-              <text class="venn__label venn__label--b" x="264" y="36" text-anchor="middle">conforto</text>
-              <text class="venn__label venn__label--c" x="180" y="284" text-anchor="middle">atendimento atencioso</text>
-              <circle class="venn__dot" cx="180" cy="146" r="4"/>
-              <text class="venn__center" x="180" y="170" text-anchor="middle">Boulevard</text>
-            </svg>
-          </figure>
+        <!-- Gráfico: o que o Boulevard combina -->
+        <div class="journey reveal" aria-hidden="true">
+          <p class="journey__title">Boulevard Restaurante</p>
+          <ol class="journey__list" role="list">
+            <li class="journey__step">
+              <span class="journey__icon"><svg class="icone" focusable="false"><use href="#i-utensils"/></svg></span>
+              <span class="journey__label">gastronomia</span>
+            </li>
+            <li class="journey__step">
+              <span class="journey__icon"><svg class="icone" focusable="false"><use href="#i-armchair"/></svg></span>
+              <span class="journey__label">conforto</span>
+            </li>
+            <li class="journey__step">
+              <span class="journey__icon"><svg class="icone" focusable="false"><use href="#i-bell"/></svg></span>
+              <span class="journey__label">atendimento atencioso</span>
+            </li>
+            <li class="journey__step journey__step--final">
+              <span class="journey__icon"><svg class="icone" focusable="false"><use href="#i-heart"/></svg></span>
+              <span class="journey__label">ambiente preparado para diferentes ocasiões</span>
+            </li>
+          </ol>
         </div>
       </div>
     </section>
 
     <!-- ============ EXPERIÊNCIA ============ -->
-    <section class="section experience" id="experiencia" aria-labelledby="experiencia-title">
+    <section class="section section--white experience" id="experiencia" aria-labelledby="experiencia-title">
       <div class="container">
-        <header class="section-head section-head--center">
+        <header class="section-head reveal">
           <p class="overline">Experiência</p>
-          <h2 class="h2" id="experiencia-title">Sabor e tranquilidade em um só lugar</h2>
-          <p>Seja para um almoço em família, um jantar especial ou um encontro entre amigos, o Boulevard oferece um espaço acolhedor para transformar cada visita em um bom momento.</p>
+          <h2 class="section-title" id="experiencia-title">Sabor e <em class="highlight-inline">tranquilidade</em> em um só lugar</h2>
+          <p class="section-head__intro">Seja para um almoço em família, um jantar especial ou um encontro entre amigos, o Boulevard oferece um espaço acolhedor para transformar cada visita em um bom momento.</p>
         </header>
 
-        <ul class="feature-grid reveal-stagger" role="list">
-            <li class="feature-card reveal">
-              <span class="feature-card__icon" aria-hidden="true">
-                <svg viewBox="0 0 24 24" focusable="false">
-                  <path pathLength="1" d="M19 9V6a2 2 0 0 0-2-2H7a2 2 0 0 0-2 2v3"/>
-                  <path pathLength="1" d="M3 16a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-5a2 2 0 0 0-4 0v1.5a.5.5 0 0 1-.5.5h-9a.5.5 0 0 1-.5-.5V11a2 2 0 0 0-4 0z"/>
-                  <path pathLength="1" d="M5 18v2M19 18v2"/>
-                </svg>
-              </span>
-              <h3 class="h3">Ambiente acolhedor</h3>
-              <p>Um espaço confortável e agradável para aproveitar sua refeição com tranquilidade.</p>
-            </li>
-            <li class="feature-card reveal">
-              <span class="feature-card__icon" aria-hidden="true">
-                <svg viewBox="0 0 24 24" focusable="false">
-                  <path pathLength="1" d="M3 18h18"/>
-                  <path pathLength="1" d="M5 18a7 7 0 0 1 14 0"/>
-                  <path pathLength="1" d="M12 11V8M10 8h4"/>
-                </svg>
-              </span>
-              <h3 class="h3">Sabores para diferentes momentos</h3>
-              <p>Opções pensadas para tornar almoços, jantares e encontros ainda mais especiais.</p>
-            </li>
-            <li class="feature-card reveal">
-              <span class="feature-card__icon" aria-hidden="true">
-                <svg viewBox="0 0 24 24" focusable="false">
-                  <path pathLength="1" d="M3 20a1 1 0 0 1-1-1v-1a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v1a1 1 0 0 1-1 1z"/>
-                  <path pathLength="1" d="M20 16a8 8 0 1 0-16 0"/>
-                  <path pathLength="1" d="M12 4v4M10 4h4"/>
-                </svg>
-              </span>
-              <h3 class="h3">Atendimento próximo</h3>
-              <p>Uma equipe preparada para receber você e proporcionar uma experiência agradável do início ao fim.</p>
-            </li>
+        <ul class="card-grid reveal-stagger" role="list">
+          <li class="card reveal">
+            <span class="card__icon" aria-hidden="true"><svg class="icone" focusable="false"><use href="#i-armchair"/></svg></span>
+            <h3 class="card__title">Ambiente acolhedor</h3>
+            <p>Um espaço confortável e agradável para aproveitar sua refeição com tranquilidade.</p>
+          </li>
+          <li class="card reveal">
+            <span class="card__icon" aria-hidden="true"><svg class="icone" focusable="false"><use href="#i-cloche"/></svg></span>
+            <h3 class="card__title">Sabores para diferentes momentos</h3>
+            <p>Opções pensadas para tornar almoços, jantares e encontros ainda mais especiais.</p>
+          </li>
+          <li class="card reveal">
+            <span class="card__icon" aria-hidden="true"><svg class="icone" focusable="false"><use href="#i-bell"/></svg></span>
+            <h3 class="card__title">Atendimento próximo</h3>
+            <p>Uma equipe preparada para receber você e proporcionar uma experiência agradável do início ao fim.</p>
+          </li>
         </ul>
       </div>
     </section>
 
     <!-- ============ CARDÁPIO ============ -->
-    <section class="section section--elevated menu" id="cardapio" aria-labelledby="cardapio-title">
-      <div class="container">
-        <div class="menu__intro">
-          <div>
-            <p class="overline">Cardápio</p>
-            <h2 class="h2" id="cardapio-title">Escolha, aproveite e saboreie</h2>
+    <section class="section menu" id="cardapio" aria-labelledby="cardapio-title">
+      <div class="container menu__grid">
+        <div class="menu__media reveal">
+          <div class="menu__frame">
+            <img src="assets/img/risoto-polvo-camarao-864.webp"
+                 srcset="assets/img/risoto-polvo-camarao-480.webp 480w, assets/img/risoto-polvo-camarao-864.webp 864w"
+                 sizes="(min-width: 1024px) 460px, (min-width: 768px) 60vw, 90vw"
+                 width="864" height="1152"
+                 alt="Risoto cremoso com tentáculo de polvo grelhado, camarões, tomates-cereja e ramo de alecrim servido em prato branco"
+                 loading="lazy" decoding="async">
           </div>
-          <div class="menu__text">
-            <p>No Boulevard, cada refeição é uma oportunidade para desfrutar de bons sabores em um ambiente agradável.</p>
-            <p>Consulte as opções disponíveis no dia, pratos especiais e sugestões da casa entrando em contato com nossa equipe.</p>
+          <img class="menu__inset"
+               src="assets/img/petit-gateau-480.webp"
+               width="480" height="270"
+               alt="Petit gâteau de chocolate com calda, duas bolas de sorvete de creme e folhas de hortelã"
+               loading="lazy" decoding="async">
+        </div>
+
+        <div class="menu__text reveal">
+          <p class="overline">Cardápio</p>
+          <h2 class="section-title" id="cardapio-title">Escolha, aproveite e <em class="highlight-inline">saboreie</em></h2>
+          <p>No Boulevard, cada refeição é uma oportunidade para desfrutar de bons sabores em um ambiente agradável.</p>
+          <p>Consulte as opções disponíveis no dia, pratos especiais e sugestões da casa entrando em contato com nossa equipe.</p>
+
+          <div class="menu__panel">
+            <!-- Ilustração: a cloche se abre — as opções do dia -->
+            <svg class="cloche" viewBox="0 0 320 300" aria-hidden="true" focusable="false">
+              <g class="cloche__bubble">
+                <path d="M20 22 h96 a14 14 0 0 1 14 14 v26 a14 14 0 0 1 -14 14 h-70 l-18 14 v-14 h-8 a14 14 0 0 1 -14 -14 v-26 a14 14 0 0 1 14 -14 z"/>
+                <circle class="cloche__dot" cx="50" cy="49" r="5"/>
+                <circle class="cloche__dot" cx="68" cy="49" r="5"/>
+                <circle class="cloche__dot" cx="86" cy="49" r="5"/>
+              </g>
+              <ellipse class="cloche__shadow" cx="170" cy="262" rx="118" ry="10"/>
+              <ellipse class="cloche__plate" cx="170" cy="250" rx="112" ry="22"/>
+              <ellipse class="cloche__plate-rim" cx="170" cy="248" rx="86" ry="15"/>
+              <g class="cloche__food">
+                <ellipse class="cloche__rice" cx="170" cy="242" rx="54" ry="12"/>
+                <circle class="cloche__tomato" cx="148" cy="236" r="7"/>
+                <circle class="cloche__tomato" cx="188" cy="234" r="6"/>
+                <path class="cloche__herb" d="M160 234 q10 -14 22 -10 q-10 4 -22 10z"/>
+              </g>
+              <g class="cloche__steam">
+                <path d="M152 222 q-8 -12 0 -24 q8 -12 0 -24"/>
+                <path d="M170 216 q-8 -12 0 -24 q8 -12 0 -24"/>
+                <path d="M188 222 q-8 -12 0 -24 q8 -12 0 -24"/>
+              </g>
+              <g class="cloche__lid">
+                <path class="cloche__dome" d="M68 246 a102 102 0 0 1 204 0 z"/>
+                <path class="cloche__shine" d="M106 208 a70 70 0 0 1 44 -44"/>
+                <rect class="cloche__stem" x="165" y="136" width="10" height="10" rx="2"/>
+                <circle class="cloche__knob" cx="170" cy="132" r="10"/>
+                <rect class="cloche__base" x="60" y="242" width="220" height="8" rx="4"/>
+              </g>
+            </svg>
             <a class="btn btn--primary" href="https://wa.me/551140250590" target="_blank" rel="noopener" aria-label="Consultar opções do cardápio pelo WhatsApp (abre em nova aba)">
-              <span class="wa-chip"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-whatsapp"/></svg></span>
+              <svg class="icone icone--wa" aria-hidden="true" focusable="false"><use href="#i-whatsapp"/></svg>
               <span>Consultar opções do cardápio</span>
             </a>
           </div>
         </div>
-
-        <ul class="dish-grid reveal-stagger" role="list">
-          <li class="dish-card reveal">
-            <img class="dish-card__img"
-                 src="assets/img/risoto-salmao-864.webp"
-                 srcset="assets/img/risoto-salmao-480.webp 480w, assets/img/risoto-salmao-864.webp 864w"
-                 sizes="(min-width: 768px) 30vw, 50vw"
-                 width="864" height="1152"
-                 alt="Risoto cremoso com filé de salmão grelhado, lâminas de abobrinha e ramo de alecrim"
-                 loading="lazy" decoding="async">
-          </li>
-          <li class="dish-card reveal">
-            <img class="dish-card__img"
-                 src="assets/img/petit-gateau-864.webp"
-                 srcset="assets/img/petit-gateau-480.webp 480w, assets/img/petit-gateau-864.webp 864w"
-                 sizes="(min-width: 768px) 30vw, 50vw"
-                 width="864" height="486"
-                 alt="Petit gâteau de chocolate com calda, duas bolas de sorvete de creme e folhas de hortelã"
-                 loading="lazy" decoding="async">
-          </li>
-          <!-- Ilustração: a cloche se abre — "consulte as opções disponíveis no dia" -->
-          <li class="dish-card dish-card--illustration reveal" aria-hidden="true">
-            <svg class="cloche" viewBox="0 0 320 400" preserveAspectRatio="xMidYMid meet" focusable="false">
-              <g class="cloche__bubble">
-                <path d="M36 58 h96 a14 14 0 0 1 14 14 v28 a14 14 0 0 1 -14 14 h-70 l-18 14 v-14 h-8 a14 14 0 0 1 -14 -14 v-28 a14 14 0 0 1 14 -14 z"/>
-                <circle class="cloche__dot" cx="66" cy="86" r="5"/>
-                <circle class="cloche__dot" cx="84" cy="86" r="5"/>
-                <circle class="cloche__dot" cx="102" cy="86" r="5"/>
-              </g>
-              <ellipse class="cloche__shadow" cx="160" cy="306" rx="118" ry="14"/>
-              <ellipse class="cloche__plate" cx="160" cy="292" rx="112" ry="22"/>
-              <ellipse class="cloche__plate-rim" cx="160" cy="290" rx="86" ry="15"/>
-              <g class="cloche__food">
-                <ellipse class="cloche__rice" cx="160" cy="284" rx="54" ry="12"/>
-                <circle class="cloche__tomato" cx="138" cy="278" r="7"/>
-                <circle class="cloche__tomato" cx="178" cy="276" r="6"/>
-                <path class="cloche__herb" d="M150 276 q10 -14 22 -10 q-10 4 -22 10z"/>
-              </g>
-              <g class="cloche__steam">
-                <path d="M142 262 q-8 -12 0 -24 q8 -12 0 -24"/>
-                <path d="M160 256 q-8 -12 0 -24 q8 -12 0 -24"/>
-                <path d="M178 262 q-8 -12 0 -24 q8 -12 0 -24"/>
-              </g>
-              <g class="cloche__lid">
-                <path class="cloche__dome" d="M58 288 a102 102 0 0 1 204 0 z"/>
-                <path class="cloche__shine" d="M96 250 a70 70 0 0 1 44 -44"/>
-                <rect class="cloche__stem" x="155" y="178" width="10" height="10" rx="2"/>
-                <circle class="cloche__knob" cx="160" cy="174" r="10"/>
-                <rect class="cloche__base" x="50" y="284" width="220" height="8" rx="4"/>
-              </g>
-            </svg>
-          </li>
-        </ul>
       </div>
     </section>
 
     <!-- ============ MOMENTOS ============ -->
-    <section class="section moments" id="momentos" aria-labelledby="momentos-title">
+    <section class="section section--white moments" id="momentos" aria-labelledby="momentos-title">
       <div class="container moments__grid">
-        <div class="moments__content">
+        <div class="moments__text">
           <p class="overline">Momentos no Boulevard</p>
-          <h2 class="h2" id="momentos-title">Seu lugar para reunir, celebrar e aproveitar</h2>
+          <h2 class="section-title" id="momentos-title">Seu lugar para reunir, celebrar e <em class="highlight-inline">aproveitar</em></h2>
           <p>O Boulevard é o ponto de encontro para quem valoriza boa comida e bons momentos.</p>
 
           <div class="moments__picker" data-moments>
-            <ul class="moment-list" role="list">
-              <li><button class="moment-btn" type="button" data-scene="familia" aria-pressed="true" aria-controls="moment-scene"><span class="moment-btn__num" aria-hidden="true">01</span><span class="moment-btn__text">Almoços em família</span><span class="moment-btn__bar" aria-hidden="true"></span></button></li>
-              <li><button class="moment-btn" type="button" data-scene="jantar" aria-pressed="false" aria-controls="moment-scene"><span class="moment-btn__num" aria-hidden="true">02</span><span class="moment-btn__text">Jantares especiais</span><span class="moment-btn__bar" aria-hidden="true"></span></button></li>
-              <li><button class="moment-btn" type="button" data-scene="amigos" aria-pressed="false" aria-controls="moment-scene"><span class="moment-btn__num" aria-hidden="true">03</span><span class="moment-btn__text">Encontros entre amigos</span><span class="moment-btn__bar" aria-hidden="true"></span></button></li>
-              <li><button class="moment-btn" type="button" data-scene="reuniao" aria-pressed="false" aria-controls="moment-scene"><span class="moment-btn__num" aria-hidden="true">04</span><span class="moment-btn__text">Reuniões e confraternizações</span><span class="moment-btn__bar" aria-hidden="true"></span></button></li>
-              <li><button class="moment-btn" type="button" data-scene="descanso" aria-pressed="false" aria-controls="moment-scene"><span class="moment-btn__num" aria-hidden="true">05</span><span class="moment-btn__text">Momentos de descanso e descontração</span><span class="moment-btn__bar" aria-hidden="true"></span></button></li>
+            <ul class="chip-list" role="list">
+              <li><button class="chip moment-btn" type="button" data-scene="familia" aria-pressed="true" aria-controls="moment-scene"><span class="moment-btn__text">Almoços em família</span><span class="moment-btn__bar" aria-hidden="true"></span></button></li>
+              <li><button class="chip moment-btn" type="button" data-scene="jantar" aria-pressed="false" aria-controls="moment-scene"><span class="moment-btn__text">Jantares especiais</span><span class="moment-btn__bar" aria-hidden="true"></span></button></li>
+              <li><button class="chip moment-btn" type="button" data-scene="amigos" aria-pressed="false" aria-controls="moment-scene"><span class="moment-btn__text">Encontros entre amigos</span><span class="moment-btn__bar" aria-hidden="true"></span></button></li>
+              <li><button class="chip moment-btn" type="button" data-scene="reuniao" aria-pressed="false" aria-controls="moment-scene"><span class="moment-btn__text">Reuniões e confraternizações</span><span class="moment-btn__bar" aria-hidden="true"></span></button></li>
+              <li><button class="chip moment-btn" type="button" data-scene="descanso" aria-pressed="false" aria-controls="moment-scene"><span class="moment-btn__text">Momentos de descanso e descontração</span><span class="moment-btn__bar" aria-hidden="true"></span></button></li>
             </ul>
             <button class="autoplay-toggle" type="button" data-autoplay-toggle aria-label="Pausar animação" hidden>
-              <svg class="icon icon--pause" aria-hidden="true" focusable="false"><use href="#i-pause"/></svg>
-              <svg class="icon icon--play" aria-hidden="true" focusable="false"><use href="#i-play"/></svg>
+              <svg class="icone icone--pause" aria-hidden="true" focusable="false"><use href="#i-pause"/></svg>
+              <svg class="icone icone--play" aria-hidden="true" focusable="false"><use href="#i-play"/></svg>
             </button>
           </div>
         </div>
 
         <!-- Ilustração interativa: a mesa muda conforme o momento escolhido -->
-        <div class="moments__stage reveal" id="moment-scene">
+        <figure class="moments__stage reveal" id="moment-scene">
           <svg class="scene" data-scene="familia" viewBox="0 0 480 360" aria-hidden="true" focusable="false">
             <defs>
               <clipPath id="arch-clip"><path d="M110 330 V150 A130 130 0 0 1 370 150 V330 Z"/></clipPath>
               <linearGradient id="sky-day" x1="0" y1="0" x2="0" y2="1">
-                <stop offset="0" stop-color="#B08D57" stop-opacity=".55"/>
-                <stop offset="1" stop-color="#F3EDE4" stop-opacity=".22"/>
+                <stop offset="0" stop-color="#F6E3D2"/>
+                <stop offset="1" stop-color="#FBF3EA"/>
               </linearGradient>
               <linearGradient id="sky-sunset" x1="0" y1="0" x2="0" y2="1">
-                <stop offset="0" stop-color="#2C2822"/>
-                <stop offset=".55" stop-color="#8F471C" stop-opacity=".85"/>
-                <stop offset="1" stop-color="#DE8C55" stop-opacity=".75"/>
+                <stop offset="0" stop-color="#E9B892"/>
+                <stop offset="1" stop-color="#F6DCC4"/>
               </linearGradient>
               <linearGradient id="sky-night" x1="0" y1="0" x2="0" y2="1">
-                <stop offset="0" stop-color="#100E0C"/>
-                <stop offset="1" stop-color="#2C2822"/>
+                <stop offset="0" stop-color="#1B1815"/>
+                <stop offset="1" stop-color="#3A332B"/>
               </linearGradient>
               <radialGradient id="candle-glow">
                 <stop offset="0" stop-color="#DE8C55" stop-opacity=".55"/>
@@ -340,7 +321,6 @@
               </mask>
             </defs>
 
-            <!-- céu na janela em arco -->
             <g clip-path="url(#arch-clip)">
               <rect class="sky" data-in="familia descanso" x="110" y="20" width="260" height="310" fill="url(#sky-day)"/>
               <rect class="sky" data-in="amigos" x="110" y="20" width="260" height="310" fill="url(#sky-sunset)"/>
@@ -361,11 +341,9 @@
             <path class="arch" d="M110 330 V150 A130 130 0 0 1 370 150 V330"/>
             <path class="arch-mullion" d="M240 20 V232 M110 150 H370"/>
 
-            <!-- piso -->
             <path class="floor" d="M0 330 H480"/>
             <ellipse class="table-shadow" cx="240" cy="334" rx="210" ry="6"/>
 
-            <!-- planta (sempre presente) -->
             <g class="plant">
               <path class="plant__leaf" d="M444 300 C 436 270, 420 258, 408 250"/>
               <path class="plant__leaf" d="M444 300 C 446 266, 456 250, 468 240"/>
@@ -373,7 +351,6 @@
               <path class="plant__pot" d="M426 300 h36 l-5 30 h-26 z"/>
             </g>
 
-            <!-- cadeiras (atrás da mesa) -->
             <rect class="chair" data-in="descanso" x="223" y="186" width="34" height="60" rx="10"/>
             <rect class="chair" data-in="familia reuniao" x="73" y="186" width="34" height="60" rx="10"/>
             <rect class="chair" data-in="familia amigos reuniao" x="133" y="186" width="34" height="60" rx="10"/>
@@ -386,13 +363,11 @@
               <path class="chair-kid__rail" d="M377 214 H403"/>
             </g>
 
-            <!-- mesa com toalha -->
             <path class="cloth" d="M58 232 H422 L442 262 H38 Z"/>
             <rect class="cloth-front" x="38" y="262" width="404" height="30" rx="3"/>
             <rect class="table-leg" x="66" y="292" width="10" height="38"/>
             <rect class="table-leg" x="404" y="292" width="10" height="38"/>
 
-            <!-- centros de mesa -->
             <g class="bowl" data-in="familia">
               <circle class="bowl__leaf" cx="232" cy="232" r="7"/><circle class="bowl__leaf" cx="246" cy="229" r="7"/><circle class="bowl__leaf" cx="240" cy="236" r="6"/>
               <path class="bowl__body" d="M222 236 h36 a18 10 0 0 1 -36 0 z"/>
@@ -416,7 +391,6 @@
               <path class="book" d="M284 252 l40 -2 l6 -8 l-40 2 z"/>
             </g>
 
-            <!-- taças -->
             <g class="glass" data-in="reuniao"><path d="M99 222 h10 q0 10 -5 11 q-5 -1 -5 -11z M104 233 v10 M100 243 h8"/></g>
             <g class="glass" data-in="amigos reuniao"><path d="M159 222 h10 q0 10 -5 11 q-5 -1 -5 -11z M164 233 v10 M160 243 h8"/></g>
             <g class="glass" data-in="jantar amigos reuniao"><path d="M219 222 h10 q0 10 -5 11 q-5 -1 -5 -11z M224 233 v10 M220 243 h8"/></g>
@@ -424,7 +398,6 @@
             <g class="glass" data-in="amigos reuniao"><path d="M339 222 h10 q0 10 -5 11 q-5 -1 -5 -11z M344 233 v10 M340 243 h8"/></g>
             <g class="glass" data-in="reuniao"><path d="M399 222 h10 q0 10 -5 11 q-5 -1 -5 -11z M404 233 v10 M400 243 h8"/></g>
 
-            <!-- pratos e talheres -->
             <g class="setting" data-in="familia reuniao"><ellipse class="plate" cx="90" cy="250" rx="20" ry="6.5"/><ellipse class="plate-in" cx="90" cy="250" rx="12" ry="3.8"/><path class="cutlery" d="M64 245 v10 M116 245 v10"/></g>
             <g class="setting" data-in="familia amigos reuniao"><ellipse class="plate" cx="150" cy="250" rx="20" ry="6.5"/><ellipse class="plate-in" cx="150" cy="250" rx="12" ry="3.8"/><path class="cutlery" d="M124 245 v10 M176 245 v10"/></g>
             <g class="setting" data-in="familia jantar amigos reuniao"><ellipse class="plate" cx="210" cy="250" rx="20" ry="6.5"/><ellipse class="plate-in" cx="210" cy="250" rx="12" ry="3.8"/><path class="cutlery" d="M184 245 v10 M236 245 v10"/></g>
@@ -432,17 +405,18 @@
             <g class="setting" data-in="familia amigos reuniao"><ellipse class="plate" cx="330" cy="250" rx="20" ry="6.5"/><ellipse class="plate-in" cx="330" cy="250" rx="12" ry="3.8"/><path class="cutlery" d="M304 245 v10 M356 245 v10"/></g>
             <g class="setting" data-in="familia reuniao"><ellipse class="plate" cx="390" cy="250" rx="20" ry="6.5"/><ellipse class="plate-in" cx="390" cy="250" rx="12" ry="3.8"/><path class="cutlery" d="M364 245 v10 M416 245 v10"/></g>
           </svg>
-        </div>
+          <figcaption class="moments__caption" data-moment-caption aria-hidden="true">Almoços em família</figcaption>
+        </figure>
       </div>
     </section>
 
     <!-- ============ GALERIA ============ -->
-    <section class="section section--elevated gallery" id="galeria" aria-labelledby="galeria-title">
+    <section class="section gallery" id="galeria" aria-labelledby="galeria-title">
       <div class="container">
-        <header class="section-head">
+        <header class="section-head section-head--center reveal">
           <p class="overline">Galeria</p>
-          <h2 class="h2" id="galeria-title">Conheça o ambiente do Boulevard</h2>
-          <p>Um espaço pensado para receber você com conforto, tranquilidade e uma atmosfera acolhedora.</p>
+          <h2 class="section-title" id="galeria-title">Conheça o ambiente do <em class="highlight-inline">Boulevard</em></h2>
+          <p class="section-head__intro">Um espaço pensado para receber você com conforto, tranquilidade e uma atmosfera acolhedora.</p>
         </header>
 
         <div class="gallery__grid reveal-stagger">
@@ -487,7 +461,7 @@
                  srcset="assets/img/fachada-480.webp 480w, assets/img/fachada-864.webp 864w"
                  sizes="(min-width: 1024px) 25vw, 50vw"
                  width="864" height="576"
-                 alt="Fachada do Boulevard com revestimento em pedra, vidraças e jardim, sob um ipê-amarelo em dia ensolarado"
+                 alt="Entrada do Boulevard com jardim e bancos sob a sombra de um ipê-amarelo"
                  loading="lazy" decoding="async">
             <figcaption>Momentos para aproveitar sem pressa</figcaption>
           </figure>
@@ -496,55 +470,48 @@
     </section>
 
     <!-- ============ CHAMADA PARA CONTATO ============ -->
-    <section class="section cta" id="chamada" aria-labelledby="chamada-title">
-      <svg class="cta__avenue" viewBox="0 0 1200 420" preserveAspectRatio="xMidYMax slice" aria-hidden="true" focusable="false">
-        <path class="avenue__edge" d="M300 420 L600 120 L900 420"/>
-        <path class="avenue__edge avenue__edge--soft" d="M0 420 L600 120 L1200 420"/>
-        <path class="avenue__center" d="M600 420 V130"/>
-        <g class="avenue__lamps">
-          <path d="M348 372 v-64 M396 324 v-50 M444 276 v-38 M492 228 v-27"/>
-          <path d="M852 372 v-64 M804 324 v-50 M756 276 v-38 M708 228 v-27"/>
-          <circle class="lamp" cx="348" cy="306" r="6"/><circle class="lamp" cx="396" cy="272" r="5"/><circle class="lamp" cx="444" cy="236" r="4"/><circle class="lamp" cx="492" cy="200" r="3"/>
-          <circle class="lamp" cx="852" cy="306" r="6"/><circle class="lamp" cx="804" cy="272" r="5"/><circle class="lamp" cx="756" cy="236" r="4"/><circle class="lamp" cx="708" cy="200" r="3"/>
-        </g>
-      </svg>
-      <div class="container cta__inner reveal">
-        <span class="divider" aria-hidden="true"></span>
-        <h2 class="h2" id="chamada-title">Seu próximo bom momento começa no Boulevard</h2>
-        <p>Venha aproveitar uma experiência agradável, cercada de bons sabores e boas companhias.</p>
-        <p>Para informações, disponibilidade ou atendimento, entre em contato com nossa equipe.</p>
-        <div class="btn-group btn-group--center">
-          <a class="btn btn--primary" href="tel:+551140250590">
-            <svg class="icon" aria-hidden="true" focusable="false"><use href="#i-phone"/></svg>
-            <span>Ligar para o Boulevard</span>
-          </a>
-          <a class="btn btn--secondary" href="https://wa.me/551140250590" target="_blank" rel="noopener" aria-label="Falar pelo WhatsApp (abre em nova aba)">
-            <svg class="icon icon--wa" aria-hidden="true" focusable="false"><use href="#i-whatsapp"/></svg>
-            <span>Falar pelo WhatsApp</span>
-          </a>
+    <section class="section section--tint cta" id="chamada" aria-labelledby="chamada-title">
+      <div class="container">
+        <div class="cta-card reveal">
+          <svg class="waves waves--cta" viewBox="0 0 400 400" preserveAspectRatio="none" aria-hidden="true" focusable="false"><path d="M -20 330 C 90 180, 230 420, 420 60" pathLength="1"/><path d="M -20 324 C 94 168, 227 406, 420 71" pathLength="1"/><path d="M -20 318 C 98 156, 224 392, 420 82" pathLength="1"/><path d="M -20 312 C 102 144, 221 378, 420 93" pathLength="1"/><path d="M -20 306 C 106 132, 218 364, 420 104" pathLength="1"/><path d="M -20 300 C 110 120, 215 350, 420 115" pathLength="1"/><path d="M -20 294 C 114 108, 212 336, 420 126" pathLength="1"/><path d="M -20 288 C 118 96, 209 322, 420 137" pathLength="1"/><path d="M -20 282 C 122 84, 206 308, 420 148" pathLength="1"/><path d="M -20 276 C 126 72, 203 294, 420 159" pathLength="1"/><path d="M -20 270 C 130 60, 200 280, 420 170" pathLength="1"/><path d="M -20 264 C 134 48, 197 266, 420 181" pathLength="1"/></svg>
+          <div class="cta-card__text">
+            <h2 class="section-title" id="chamada-title">Seu próximo bom momento começa no <em class="highlight-inline">Boulevard</em></h2>
+            <p>Venha aproveitar uma experiência agradável, cercada de bons sabores e boas companhias.</p>
+            <p>Para informações, disponibilidade ou atendimento, entre em contato com nossa equipe.</p>
+          </div>
+          <div class="cta-card__actions">
+            <a class="btn btn--primary" href="tel:+551140250590">
+              <svg class="icone" aria-hidden="true" focusable="false"><use href="#i-phone"/></svg>
+              <span>Ligar para o Boulevard</span>
+            </a>
+            <a class="btn btn--outline" href="https://wa.me/551140250590" target="_blank" rel="noopener" aria-label="Falar pelo WhatsApp (abre em nova aba)">
+              <svg class="icone icone--wa" aria-hidden="true" focusable="false"><use href="#i-whatsapp"/></svg>
+              <span>Falar pelo WhatsApp</span>
+            </a>
+          </div>
         </div>
       </div>
     </section>
 
     <!-- ============ LOCALIZAÇÃO ============ -->
-    <section class="section section--elevated location" id="localizacao" aria-labelledby="localizacao-title">
+    <section class="section location" id="localizacao" aria-labelledby="localizacao-title">
       <div class="container location__grid">
-        <div class="location__content reveal">
+        <div class="location__text reveal">
           <p class="overline">Localização</p>
-          <h2 class="h2" id="localizacao-title">Onde estamos</h2>
+          <h2 class="section-title" id="localizacao-title">Onde <em class="highlight-inline">estamos</em></h2>
           <p>O Boulevard está localizado dentro do Condomínio Terras de São José I, em Itu, São Paulo.</p>
           <address class="address-card">
-            <svg class="address-card__icon" aria-hidden="true" focusable="false"><use href="#i-pin"/></svg>
+            <svg class="icone address-card__icon" aria-hidden="true" focusable="false"><use href="#i-pin"/></svg>
             <span>
-              <strong class="address-card__label">Endereço:</strong><br>
+              <strong class="address-card__label">Endereço:</strong>
               Alameda Laço de Fita – Condomínio Terras de São José I<br>
               Itu – SP<br>
               CEP: 13306-530
             </span>
           </address>
-          <a class="btn btn--secondary" href="https://www.google.com/maps/search/?api=1&amp;query=Alameda+La%C3%A7o+de+Fita%2C+Condom%C3%ADnio+Terras+de+S%C3%A3o+Jos%C3%A9+I%2C+Itu+-+SP%2C+13306-530" target="_blank" rel="noopener" aria-label="Ver localização no mapa (abre em nova aba)">
-            <svg class="icon" aria-hidden="true" focusable="false"><use href="#i-pin"/></svg>
+          <a class="btn btn--outline" href="https://www.google.com/maps/search/?api=1&amp;query=Alameda+La%C3%A7o+de+Fita%2C+Condom%C3%ADnio+Terras+de+S%C3%A3o+Jos%C3%A9+I%2C+Itu+-+SP%2C+13306-530" target="_blank" rel="noopener" aria-label="Ver localização no mapa (abre em nova aba)">
             <span>Ver localização no mapa</span>
+            <svg class="icone" aria-hidden="true" focusable="false"><use href="#i-external"/></svg>
           </a>
         </div>
         <div class="location__map reveal">
@@ -558,33 +525,40 @@
     </section>
 
     <!-- ============ CONTATO ============ -->
-    <section class="section contact" id="contato" aria-labelledby="contato-title">
-      <div class="container contact__inner reveal">
-        <div>
+    <section class="section section--white contact" id="contato" aria-labelledby="contato-title">
+      <div class="container">
+        <header class="section-head reveal">
           <p class="overline">Contato</p>
-          <h2 class="h2" id="contato-title">Entre em contato com o Boulevard</h2>
-          <p>Precisa de mais informações? Fale diretamente com nossa equipe.</p>
-        </div>
-        <div class="contact__card">
-          <dl class="contact__list">
-            <div class="contact__row">
-              <dt>Telefone fixo:</dt>
-              <dd><a class="text-link" href="tel:+551140250590">(11) 4025-0590</a></dd>
-            </div>
-            <div class="contact__row">
-              <dt>WhatsApp:</dt>
-              <dd>
-                <a class="text-link text-link--wa" href="https://wa.me/551140250590" target="_blank" rel="noopener" aria-label="Falar pelo WhatsApp (abre em nova aba)">
-                  <svg class="icon icon--wa" aria-hidden="true" focusable="false"><use href="#i-whatsapp"/></svg>
-                  <span>Falar pelo WhatsApp</span>
-                </a>
-              </dd>
-            </div>
-          </dl>
-          <a class="btn btn--primary btn--block" href="tel:+551140250590">
-            <svg class="icon" aria-hidden="true" focusable="false"><use href="#i-phone"/></svg>
-            <span>Ligar agora</span>
-          </a>
+          <h2 class="section-title" id="contato-title">Entre em contato com o <em class="highlight-inline">Boulevard</em></h2>
+          <p class="section-head__intro">Precisa de mais informações? Fale diretamente com nossa equipe.</p>
+        </header>
+
+        <div class="contact__grid">
+          <ul class="contact__list reveal-stagger" role="list">
+            <li class="info-card reveal">
+              <span class="info-card__icon" aria-hidden="true"><svg class="icone" focusable="false"><use href="#i-phone"/></svg></span>
+              <div>
+                <p class="info-card__label">Telefone fixo:</p>
+                <a class="info-card__value" href="tel:+551140250590">(11) 4025-0590</a>
+              </div>
+            </li>
+            <li class="info-card reveal">
+              <span class="info-card__icon" aria-hidden="true"><svg class="icone icone--wa" focusable="false"><use href="#i-whatsapp"/></svg></span>
+              <div>
+                <p class="info-card__label">WhatsApp:</p>
+                <a class="info-card__value" href="https://wa.me/551140250590" target="_blank" rel="noopener" aria-label="Falar pelo WhatsApp (abre em nova aba)">Falar pelo WhatsApp</a>
+              </div>
+            </li>
+          </ul>
+
+          <div class="call-card reveal">
+            <span class="call-card__icon" aria-hidden="true"><svg class="icone" focusable="false"><use href="#i-phone"/></svg></span>
+            <p class="call-card__number">(11) 4025-0590</p>
+            <a class="btn btn--primary btn--block" href="tel:+551140250590">
+              <svg class="icone" aria-hidden="true" focusable="false"><use href="#i-phone"/></svg>
+              <span>Ligar agora</span>
+            </a>
+          </div>
         </div>
       </div>
     </section>
@@ -594,13 +568,12 @@
   <footer class="site-footer">
     <div class="container site-footer__grid">
       <div class="site-footer__brand">
-        <p class="wordmark wordmark--footer">Boulevard Restaurante</p>
-        <p>Boa gastronomia e bons momentos no Condomínio Terras de São José I.</p>
+        <p class="site-footer__name">Boulevard Restaurante</p>
+        <p class="site-footer__tagline">Boa gastronomia e bons momentos no Condomínio Terras de São José I.</p>
       </div>
       <address class="site-footer__address">
-        Alameda Laço de Fita – Condomínio Terras de São José I<br>
-        Itu – SP – CEP 13306-530<br>
-        <span class="site-footer__phone">Telefone: <a class="text-link" href="tel:+551140250590">(11) 4025-0590</a></span>
+        <p>Alameda Laço de Fita – Condomínio Terras de São José I<br>Itu – SP – CEP 13306-530</p>
+        <p>Telefone: <a href="tel:+551140250590">(11) 4025-0590</a></p>
       </address>
       <nav class="site-footer__nav" aria-label="Navegação do rodapé">
         <ul role="list">
@@ -620,13 +593,13 @@
 
   <!-- ============ BARRA DE CTA FLUTUANTE (mobile) ============ -->
   <aside class="cta-bar" aria-label="Atalhos de contato" inert>
-    <a class="btn btn--primary cta-bar__btn" href="https://wa.me/551140250590" target="_blank" rel="noopener" aria-label="Falar pelo WhatsApp (abre em nova aba)">
-      <span class="wa-chip"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-whatsapp"/></svg></span>
-      <span>Falar pelo WhatsApp</span>
-    </a>
-    <a class="btn btn--secondary cta-bar__btn" href="tel:+551140250590">
-      <svg class="icon" aria-hidden="true" focusable="false"><use href="#i-phone"/></svg>
+    <a class="btn btn--primary cta-bar__btn" href="tel:+551140250590">
+      <svg class="icone" aria-hidden="true" focusable="false"><use href="#i-phone"/></svg>
       <span>Ligar agora</span>
+    </a>
+    <a class="btn btn--outline cta-bar__btn" href="https://wa.me/551140250590" target="_blank" rel="noopener" aria-label="Falar pelo WhatsApp (abre em nova aba)">
+      <svg class="icone icone--wa" aria-hidden="true" focusable="false"><use href="#i-whatsapp"/></svg>
+      <span>Falar pelo WhatsApp</span>
     </a>
   </aside>
 </body>
